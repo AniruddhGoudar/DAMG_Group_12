@@ -79,8 +79,6 @@ SELECT
     CONVERT(VARCHAR, DECRYPTBYPASSPHRASE('YourSecurePassphraseHere', EmailEncrypted)) AS Email
 FROM Passenger;
 
-select * from Passenger
-
 
 
 

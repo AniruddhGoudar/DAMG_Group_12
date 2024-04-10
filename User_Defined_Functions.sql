@@ -103,8 +103,7 @@ GO
 ALTER TABLE Passenger
 ADD Age AS dbo.CalculateAge(DateOfBirth);
 
-select * from passenger;
-GO
+
 
 
 

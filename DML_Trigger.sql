@@ -108,5 +108,3 @@ BEGIN
     SET Reservation_Status = 'Pending'
     WHERE Reservation_ID IN (SELECT Reservation_ID FROM inserted);
 END;
-
-SELECT * FROM Reservation

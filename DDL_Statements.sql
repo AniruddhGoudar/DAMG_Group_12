@@ -160,21 +160,3 @@ CREATE TABLE FlightChangeLog (
     FOREIGN KEY (Flight_Id) REFERENCES Flight(Flight_Id)
 );
 go 
-
-
-
-
-
-
-
-select * from Airport;
-select * from Passenger;
-select * from Flight;
-select * from Flight_Cost;
-select * from Flight_Service
-select * from PaymentStatus
-select * from Service_Offering
-select * from Reservation
-select * from Travel_Class
-select * from Seat
-select * from FlightChangeLog

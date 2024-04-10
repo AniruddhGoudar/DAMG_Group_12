@@ -91,7 +91,7 @@ END;
 
 
 
-select * from seat;
+
 
 DECLARE @Message NVARCHAR(100);
 
@@ -102,14 +102,6 @@ EXEC GetFlightDetailsByLocation
 
 SELECT @Message AS Message;
 Go
-
-
-
-select * from Flight;
-Go
-
-select * from Seat;
-GO
 
 
 -- =====================================

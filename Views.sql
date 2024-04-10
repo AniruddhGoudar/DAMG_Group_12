@@ -27,7 +27,3 @@ from SerivceDepedingOnClass sdo
 Left join  ServiceAndClass sc on sdo.Class_Id = sc.Class_ID
 
 Go
-
-SELECT * from ServiceOfferingToClasses
-
-GO
